@@ -461,7 +461,7 @@ q {
   font-size: 38px;
   color: #75a9d6;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
   /* For mobile phones: */
   .Clients_img {
     margin: 20px;
@@ -516,6 +516,12 @@ q {
   color: #908e8e;
   letter-spacing: 0px;
 }
+.touch_parg_{
+  font-size: 18px;
+  line-height: 28px;
+  color: #908e8e;
+  margin-top: 20px;
+}
 .touch_content {
   margin-top: 60px;
 }
@@ -526,19 +532,21 @@ q {
   font-size: 20px;
   width: 25px;
   vertical-align: 3px;
-  font-size: inherit;
+
   text-rendering: auto;
+ 
 }
 
 .touch_content h1 {
   font-size: 26px;
-  color: var(--heading-color);
-  background-color: transparent;
+
+
   padding-right: 30px;
   color: #fff;
-  vertical-align: 3px;
+
   font-size: inherit;
   text-rendering: auto;
+  line-height: 2.8;
 }
 .x {
   margin-right: 30px;
@@ -563,4 +571,61 @@ q {
 .footer_parg span {
   background-color: #f79784;
   padding: 5px;
+}
+@media only screen and (max-width: 768px) {
+
+ .navbar-brand{
+   margin-left:81px;
+   text-align: center;
+
+ }
+ .navbar-brand span{
+   font-size: 25px;
+   text-align: center;
+ }
+ .navbar-toggler{
+ 
+   text-align: center;
+ 
+ }
+ .hero_parg{
+   font-size: 20px;
+ }
+ .follow_me{  
+    margin-top: -20px;
+   font-size: 10px;
+
+ }
+
+.slider_content{
+  margin-bottom: 80px;
+}
+
+.touch_parg_{
+  text-align: center;
+  margin-bottom: -20px;
+  margin-top: 20px;
+
+}
+.touch_parg{
+  text-align: center;
+  margin-top: -10px;
+  padding-top: 0px;
+}
+.touch_content{
+  text-align: center;
+}
+.touch_content h1{
+  font-size: 15px;
+ 
+}
+.touch_content .x{
+  font-size: 15px;
+margin-right: 10px;
+
+
+}
+.Clients_img{
+margin-bottom: -100px;
+}
 }
